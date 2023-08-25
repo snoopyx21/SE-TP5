@@ -1,0 +1,150 @@
+ chaine a afficher => ^root 
+
+root         1  0.0  0.2 196592  9140 ?        Ss   19:15   0:01 /usr/lib/systemd/systemd --switched-root --system --deserialize 23
+root         2  0.0  0.0      0     0 ?        S    19:15   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    19:15   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   19:15   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    19:15   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    19:15   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    19:15   0:00 [rcuos/0]
+root        10  0.0  0.0      0     0 ?        S    19:15   0:00 [rcuob/0]
+root        11  0.0  0.0      0     0 ?        S    19:15   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S<   19:15   0:00 [lru-add-drain]
+root        13  0.0  0.0      0     0 ?        S    19:15   0:00 [watchdog/0]
+root        14  0.0  0.0      0     0 ?        S    19:15   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    19:15   0:00 [cpuhp/1]
+root        16  0.0  0.0      0     0 ?        S    19:15   0:00 [watchdog/1]
+root        17  0.0  0.0      0     0 ?        S    19:15   0:00 [migration/1]
+root        18  0.0  0.0      0     0 ?        S    19:15   0:00 [ksoftirqd/1]
+root        20  0.0  0.0      0     0 ?        S<   19:15   0:00 [kworker/1:0H]
+root        21  0.0  0.0      0     0 ?        S    19:15   0:00 [rcuos/1]
+root        22  0.0  0.0      0     0 ?        S    19:15   0:00 [rcuob/1]
+root        23  0.0  0.0      0     0 ?        S    19:15   0:00 [cpuhp/2]
+root        24  0.0  0.0      0     0 ?        S    19:15   0:00 [watchdog/2]
+root        25  0.0  0.0      0     0 ?        S    19:15   0:00 [migration/2]
+root        26  0.0  0.0      0     0 ?        S    19:15   0:00 [ksoftirqd/2]
+root        28  0.0  0.0      0     0 ?        S<   19:15   0:00 [kworker/2:0H]
+root        29  0.0  0.0      0     0 ?        S    19:15   0:00 [rcuos/2]
+root        30  0.0  0.0      0     0 ?        S    19:15   0:00 [rcuob/2]
+root        31  0.0  0.0      0     0 ?        S    19:15   0:00 [cpuhp/3]
+root        32  0.0  0.0      0     0 ?        S    19:15   0:00 [watchdog/3]
+root        33  0.0  0.0      0     0 ?        S    19:15   0:00 [migration/3]
+root        34  0.0  0.0      0     0 ?        S    19:15   0:00 [ksoftirqd/3]
+root        36  0.0  0.0      0     0 ?        S<   19:15   0:00 [kworker/3:0H]
+root        37  0.0  0.0      0     0 ?        S    19:15   0:00 [rcuos/3]
+root        38  0.0  0.0      0     0 ?        S    19:15   0:00 [rcuob/3]
+root        39  0.0  0.0      0     0 ?        S    19:15   0:00 [kdevtmpfs]
+root        40  0.0  0.0      0     0 ?        S<   19:15   0:00 [netns]
+root        41  0.0  0.0      0     0 ?        S    19:15   0:00 [oom_reaper]
+root        42  0.0  0.0      0     0 ?        S<   19:15   0:00 [writeback]
+root        43  0.0  0.0      0     0 ?        S    19:15   0:00 [kcompactd0]
+root        44  0.0  0.0      0     0 ?        SN   19:15   0:00 [ksmd]
+root        45  0.0  0.0      0     0 ?        SN   19:15   0:00 [khugepaged]
+root        46  0.0  0.0      0     0 ?        S<   19:15   0:00 [crypto]
+root        47  0.0  0.0      0     0 ?        S<   19:15   0:00 [kintegrityd]
+root        48  0.0  0.0      0     0 ?        S<   19:15   0:00 [bioset]
+root        49  0.0  0.0      0     0 ?        S<   19:15   0:00 [kblockd]
+root        53  0.0  0.0      0     0 ?        S    19:15   0:00 [kworker/3:1]
+root        54  0.0  0.0      0     0 ?        S<   19:15   0:00 [ata_sff]
+root        55  0.0  0.0      0     0 ?        S<   19:15   0:00 [md]
+root        56  0.0  0.0      0     0 ?        S<   19:15   0:00 [devfreq_wq]
+root        57  0.0  0.0      0     0 ?        S<   19:15   0:00 [watchdogd]
+root        59  0.0  0.0      0     0 ?        S    19:15   0:00 [kswapd0]
+root        60  0.0  0.0      0     0 ?        S<   19:15   0:00 [vmstat]
+root       106  0.0  0.0      0     0 ?        S<   19:15   0:00 [kthrotld]
+root       107  0.0  0.0      0     0 ?        S<   19:15   0:00 [acpi_thermal_pm]
+root       108  0.0  0.0      0     0 ?        S    19:15   0:00 [scsi_eh_0]
+root       109  0.0  0.0      0     0 ?        S<   19:15   0:00 [scsi_tmf_0]
+root       110  0.0  0.0      0     0 ?        S    19:15   0:00 [scsi_eh_1]
+root       111  0.0  0.0      0     0 ?        S<   19:15   0:00 [scsi_tmf_1]
+root       112  0.0  0.0      0     0 ?        S    19:15   0:00 [scsi_eh_2]
+root       113  0.0  0.0      0     0 ?        S<   19:15   0:00 [scsi_tmf_2]
+root       114  0.0  0.0      0     0 ?        S    19:15   0:00 [scsi_eh_3]
+root       115  0.0  0.0      0     0 ?        S<   19:15   0:00 [scsi_tmf_3]
+root       120  0.0  0.0      0     0 ?        S<   19:15   0:00 [dm_bufio_cache]
+root       121  0.0  0.0      0     0 ?        S<   19:15   0:00 [ipv6_addrconf]
+root       159  0.0  0.0      0     0 ?        S<   19:15   0:00 [bioset]
+root       160  0.0  0.0      0     0 ?        S<   19:15   0:00 [bioset]
+root       200  0.0  0.0      0     0 ?        S    19:15   0:00 [kauditd]
+root       372  0.0  0.0      0     0 ?        S<   19:15   0:00 [kworker/0:1H]
+root       384  0.0  0.0      0     0 ?        S<   19:15   0:00 [kworker/1:1H]
+root       385  0.0  0.0      0     0 ?        S<   19:15   0:00 [kworker/2:1H]
+root       386  0.0  0.0      0     0 ?        S    19:15   0:00 [i915/signal:0]
+root       387  0.0  0.0      0     0 ?        S    19:15   0:00 [i915/signal:1]
+root       388  0.0  0.0      0     0 ?        S    19:15   0:00 [i915/signal:2]
+root       389  0.0  0.0      0     0 ?        S    19:15   0:00 [i915/signal:4]
+root       390  0.0  0.0      0     0 ?        S<   19:15   0:00 [kworker/3:1H]
+root       411  0.0  0.0      0     0 ?        S<   19:15   0:00 [ttm_swap]
+root       455  0.0  0.0      0     0 ?        S<   19:15   0:00 [kdmflush]
+root       457  0.0  0.0      0     0 ?        S<   19:15   0:00 [bioset]
+root       466  0.0  0.0      0     0 ?        S<   19:15   0:00 [kdmflush]
+root       468  0.0  0.0      0     0 ?        S<   19:15   0:00 [bioset]
+root       487  0.0  0.0      0     0 ?        S    19:15   0:00 [jbd2/dm-0-8]
+root       488  0.0  0.0      0     0 ?        S<   19:15   0:00 [ext4-rsv-conver]
+root       578  0.0  1.3  96408 52964 ?        Ss   19:15   0:00 /usr/lib/systemd/systemd-journald
+root       604  0.0  0.0      0     0 ?        S<   19:15   0:00 [rpciod]
+root       605  0.0  0.0      0     0 ?        S<   19:15   0:00 [xprtiod]
+root       606  0.0  0.1 112884  5852 ?        Ss   19:15   0:00 /usr/sbin/lvmetad -f -t 3600
+root       610  0.0  0.2  49536  9372 ?        Ss   19:15   0:01 /usr/lib/systemd/systemd-udevd
+root       639  0.0  0.0      0     0 ?        S<   19:15   0:00 [asus_wireless_w]
+root       640  0.0  0.0      0     0 ?        S    19:15   0:00 [irq/51-mei_me]
+root       690  0.0  0.0      0     0 ?        S<   19:15   0:00 [cfg80211]
+root       701  0.0  0.0      0     0 ?        S<   19:15   0:00 [led_workqueue]
+root       738  0.0  0.0      0     0 ?        S<   19:15   0:00 [kdmflush]
+root       739  0.0  0.0      0     0 ?        S<   19:15   0:00 [bioset]
+root       763  0.0  0.0      0     0 ?        S<   19:16   0:00 [kmemstick]
+root       764  0.0  0.0      0     0 ?        D    19:16   0:00 [rtsx_usb_ms_1]
+root       765  0.0  0.0      0     0 ?        S<   19:16   0:00 [kworker/u9:0]
+root       766  0.0  0.0      0     0 ?        S<   19:16   0:00 [hci0]
+root       767  0.0  0.0      0     0 ?        S<   19:16   0:00 [hci0]
+root       769  0.0  0.0      0     0 ?        S<   19:16   0:00 [kworker/u9:2]
+root       792  0.0  0.0      0     0 ?        S    19:16   0:00 [jbd2/sda5-8]
+root       793  0.0  0.0      0     0 ?        S<   19:16   0:00 [ext4-rsv-conver]
+root       799  0.0  0.0      0     0 ?        S    19:16   0:00 [jbd2/dm-2-8]
+root       800  0.0  0.0      0     0 ?        S<   19:16   0:00 [ext4-rsv-conver]
+root       829  0.0  0.0  55544  2156 ?        S<sl 19:16   0:00 /sbin/auditd
+root       831  0.0  0.0  84520  1808 ?        S<sl 19:16   0:00 /sbin/audispd
+root       833  0.0  0.0  45696  2036 ?        S<   19:16   0:00 /usr/sbin/sedispatch
+root       852  0.0  0.0   7056  1820 ?        Ss   19:16   0:00 /usr/sbin/mcelog --ignorenodev --daemon --foreground
+root       853  0.0  0.2 369940  8100 ?        Ssl  19:16   0:00 /usr/libexec/udisks2/udisksd --no-debug
+root       855  0.0  0.1  45548  4632 ?        Ss   19:16   0:00 /usr/libexec/bluetooth/bluetoothd
+root       857  0.0  0.1 388492  6844 ?        Ssl  19:16   0:00 /usr/libexec/accounts-daemon
+root       866  0.0  0.0 205724  3300 ?        Ssl  19:16   0:00 /usr/sbin/gssproxy -D
+root       876  0.0  0.2 339236  8356 ?        Ssl  19:16   0:00 /usr/sbin/ModemManager
+root       878  0.0  0.0   4396   624 ?        Ss   19:16   0:00 /sbin/rngd -f
+root       885  0.0  0.1  27124  5940 ?        Ss   19:16   0:00 /usr/lib/systemd/systemd-logind
+root       886  0.0  0.0  16860  1356 ?        SNs  19:16   0:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root       887  0.0  0.8 343864 34108 ?        Ssl  19:16   0:00 /usr/bin/python3 -Es /usr/sbin/firewalld --nofork --nopid
+root       891  0.0  0.2 438248  9780 ?        Ssl  19:16   0:00 /usr/sbin/abrtd -d -s
+root       924  0.0  0.5 546736 21500 ?        Ss   19:16   0:00 /usr/bin/abrt-dump-journal-oops -fxtD
+root       926  0.0  0.4 557900 17128 ?        Ss   19:16   0:00 /usr/bin/abrt-dump-journal-xorg -fxtD
+root       936  0.0  0.4 696540 16544 ?        Ssl  19:16   0:01 /usr/sbin/NetworkManager --no-daemon
+root       955  0.0  0.8 898780 34100 ?        Ssl  19:16   0:00 /usr/sbin/libvirtd
+root       977  0.0  0.0  25936  2176 ?        Ss   19:16   0:00 /usr/sbin/atd -f
+root       978  0.0  0.0 130704  3196 ?        Ss   19:16   0:00 /usr/sbin/crond -n
+root       979  0.0  0.2 404852  8184 ?        Ssl  19:16   0:00 /usr/sbin/gdm
+root      1013  0.0  0.1  68368  7720 ?        Ss   19:16   0:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+root      1079  0.0  0.2 362980  8796 ?        Sl   19:16   0:00 gdm-session-worker [pam/gdm-launch-environment]
+root      1111  0.0  0.4  89176 18828 ?        S    19:16   0:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-wlp3s0f0.pid -lf /var/lib/NetworkManager/dhclient-d5efa330-135a-4ac5-afa8-1dfd4bbb30b9-wlp3s0f0.lease -cf /var/lib/NetworkManager/dhclient-wlp3s0f0.conf wlp3s0f0
+root      1187  0.0  0.0  51104   380 ?        S    19:16   0:00 /sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root      1274  0.0  0.2 421684  8880 ?        Ssl  19:16   0:00 /usr/libexec/upowerd
+root      1357  0.0  0.4 531088 17964 ?        Ssl  19:16   0:00 /usr/libexec/packagekitd
+root      1454  0.0  0.2 385792  9600 ?        Sl   19:17   0:00 gdm-session-worker [pam/gdm-password]
+root      1735  0.0  0.1 207156  7752 ?        Ss   19:17   0:00 /usr/sbin/cupsd -l
+root      1921  0.0  1.0 702664 40176 ?        Sl   19:17   0:00 /usr/libexec/fwupd/fwupd
+root      2255  0.0  0.0      0     0 ?        S    19:21   0:00 [kworker/2:0]
+root      2330  0.0  0.0      0     0 ?        S    19:26   0:00 [kworker/0:1]
+root      2609  0.0  0.0      0     0 ?        S    19:48   0:00 [kworker/2:2]
+root      2614  0.0  0.0      0     0 ?        S    19:51   0:00 [kworker/1:0]
+root      2640  0.0  0.0      0     0 ?        S    19:57   0:00 [kworker/u8:2]
+root      2641  0.0  0.0      0     0 ?        S    19:58   0:00 [kworker/0:2]
+root      2644  0.0  0.0      0     0 ?        S    19:59   0:00 [kworker/1:2]
+root      2654  0.0  0.0      0     0 ?        S    19:59   0:00 [kworker/3:3]
+root      2772  0.0  0.0      0     0 ?        S    20:05   0:00 [kworker/3:0]
+root      2805  0.0  0.0      0     0 ?        S    20:05   0:00 [kworker/u8:3]
+root      2813  0.0  0.0      0     0 ?        S    20:06   0:00 [kworker/0:0]
+root      2817  0.0  0.0      0     0 ?        S    20:06   0:00 [kworker/2:3]
+root      2905  0.0  0.0      0     0 ?        S    20:10   0:00 [kworker/3:2]
+root      2945  0.0  0.0      0     0 ?        S    20:11   0:00 [kworker/1:1]
+root      2946  0.0  0.0      0     0 ?        S    20:11   0:00 [kworker/u8:0]
+root      3029  0.0  0.0      0     0 ?        S    20:13   0:00 [kworker/3:4]
